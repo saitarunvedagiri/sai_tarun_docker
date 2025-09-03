@@ -1,9 +1,9 @@
 # Hands-On 3: Docker Microservice (ITCS 6190/8190)
 
 ## Student Info
-- **Name:** [Your Name]  
-- **Student ID:** [Your ID]  
-- **Email:** [Your Email]  
+- **Name:** Sai Tarun Vedagiri  
+- **Student ID:** 801421332  
+- **Email:** svedagi1@charlotte.edu  
 
 ---
 
@@ -24,3 +24,7 @@ All services are managed using **Docker Compose**.
 ```bash
 docker -v
 
+Verify Docker Compose Installation
+docker-compose -v
+git clone <your-github-repo-link>
+cd <your-project-directory>
