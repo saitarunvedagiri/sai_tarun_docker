@@ -22,7 +22,7 @@ All services are managed using **Docker Compose**.
 
 
 
-
+#### 1. Verify Docker Installation
 ```bash
 docker -v
 docker-compose -v
@@ -30,7 +30,6 @@ git clone <your-github-repo-link>
 cd <your-project-directory>
 docker-compose up --build
 docker ps
-wsrfgsrtjytyukjm
 http://localhost:5000
 docker-compose logs -f
 docker-compose down
