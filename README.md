@@ -30,6 +30,7 @@ git clone <your-github-repo-link>
 cd <your-project-directory>
 docker-compose up --build
 docker ps
+wsrfgsrtjytyukjm
 http://localhost:5000
 docker-compose logs -f
 docker-compose down
