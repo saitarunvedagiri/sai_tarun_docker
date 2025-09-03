@@ -20,11 +20,16 @@ All services are managed using **Docker Compose**.
 
 ## Execution Steps
 
-### 1. Verify Docker Installation
+
+
+
 ```bash
 docker -v
-
-Verify Docker Compose Installation
 docker-compose -v
 git clone <your-github-repo-link>
 cd <your-project-directory>
+docker-compose up --build
+docker ps
+http://localhost:5000
+docker-compose logs -f
+docker-compose down
