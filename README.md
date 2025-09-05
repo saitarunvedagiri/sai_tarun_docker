@@ -39,6 +39,9 @@ All services are managed using **Docker Compose**.
 5. If prompted, enable WSL 2 and restart.
 Verify installation:
 
+``
+docker -v
+``
 '''
 docker -v
 '''
