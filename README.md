@@ -31,7 +31,7 @@ All services are managed using **Docker Compose**.
 
 
 
-#### 1. Verify Docker Installation
+### 1. Verify Docker Installation
 1. Install Docker Desktop on Windows
 2. Download Docker Desktop for Windows from Docker Hub
 3. Run the installer with default settings.
@@ -39,24 +39,24 @@ All services are managed using **Docker Compose**.
 5. If prompted, enable WSL 2 and restart.
 Verify installation:
 ```bash
-# Example
-docker compose up
+docker -v
 ```
 
-
-``
-docker -v
-``
-'''
-docker -v
-'''
-
-
-
-
-
-#### 2. PostgreSQL Setup
-#### 3. Run PostgreSQL container:
-#### 4.Access the container:
-#### 5.Open PostgreSQL prompt:
+### 2. PostgreSQL Setup with Docker
+1. Pull the PostgreSQL image:
+```bash
+docker pull postgres
+```
+2. Create and start a PostgreSQL container:
+```bash
+docker run -d -p 5432:5432 --name postgres1 -e POSTGRES_PASSWORD=pass12345 postgres
+```
+3. Open a terminal inside the container:
+```bash
+docker exec -it postgres1 bash
+```
+4. Connect to PostgreSQL with psql:
+```bash
+psql -d postgres -U postgres
+```
 
