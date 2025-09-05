@@ -38,6 +38,11 @@ All services are managed using **Docker Compose**.
 4. Start Docker Desktop from the Start Menu.
 5. If prompted, enable WSL 2 and restart.
 Verify installation:
+```bash
+# Example
+docker compose up
+```
+
 
 ``
 docker -v
